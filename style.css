@@ -36,13 +36,19 @@ ul.skills {
 }
 
 ul.skills > li {
-    margin: 0 2pt 2pt 0;
-    display: inline-block;
-    /* border: 1px #333 solid; */
-    border-radius: 5pt;
+    margin: 0 -1px 0pt 0px;
     padding: 3pt 8pt;
-	background-color: #2cbce3 ;
-	color: white !important;;
+    color: gray !important;
+    border: none;
+    border-right: 1px gray solid;
+    border-left: 1px gray solid;
+    float: left;
+    list-style: none;
+    margin-left: -1px;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 3px;
 }
 
 #sidebar {
